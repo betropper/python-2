@@ -20,5 +20,5 @@ def parse_roll():
     text = input('''How many dice would you like to roll? ''')
     howmany, sides = parse(text)
     return roll(howmany,sides)
-if __name__ == '__main__':
-    parse_roll()
+
+parse_roll()
