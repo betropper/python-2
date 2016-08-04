@@ -1,0 +1,8 @@
+!#/usr/bin/env python3
+
+//from pokemon import Pokemon
+import pokemon as p
+
+bulbasaur = p.Pokemon
+bulbasaur.defense = 20
+print(bulbasaur.defense)

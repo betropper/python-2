@@ -1,0 +1,7 @@
+#!/usr/bin/env/ python
+import pykemon
+
+p = pykemon.get(pokemon="arceus")
+print(p)
+print("HP is " + str(p.hp))
+print("Attack is " + str(p.attack))
